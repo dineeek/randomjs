@@ -1,0 +1,12 @@
+{
+  "name": "animation-script-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  },
+  "scripts": {
+    "start": "npx browser-sync start --server --port 7777 --directory --files 'css/*.css, js/*.js, *.html'"
+  }
+}
